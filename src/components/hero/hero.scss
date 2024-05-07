@@ -24,6 +24,7 @@
       }
 
       .buttons {
+        z-index: 3;
         button {
           padding: 20px;
           border: 1px solid white;
@@ -48,6 +49,7 @@
     position: absolute;
     top: 0;
     right: 0;
+    z-index: 2;
   }
 
   .slidingTextContainer {
@@ -58,5 +60,7 @@
     color: #e2602c2c;
     width: 50%;
     font-weight: bold;
+    user-select: none;
+    z-index: 1;
   }
 }
