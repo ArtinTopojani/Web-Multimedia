@@ -2,12 +2,14 @@ import React from 'react';
 import './app.scss';
 import Navbar from './components/navbar/Navbar';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Hero from './components/hero/Hero';
 
 function App() {
   return (
     <>
       <section id='Homepage'>
         <Navbar></Navbar>
+        <Hero />
       </section>
 
       <section id='Services'>Parallax</section>
