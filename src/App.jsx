@@ -6,18 +6,17 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function App() {
   return (
     <>
-      <section>
+      <section id='Homepage'>
         <Navbar></Navbar>
-        <FontAwesomeIcon icon='fa-brands fa-instagram' />
       </section>
 
-      <section>Parallax</section>
-      <section>Drejtimet</section>
-      <section>Parallax</section>
+      <section id='Services'>Parallax</section>
+      <section>Services</section>
+      <section id='Portfolio'>Parallax</section>
       <section>Fakullteti1</section>
       <section>Fakullteti2</section>
       <section>Fakullteti3</section>
-      <section>Contact</section>
+      <section id='Contact'>Contact</section>
     </>
   );
 }
