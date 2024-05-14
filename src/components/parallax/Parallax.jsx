@@ -10,7 +10,7 @@ function Parallax({ type }) {
     offset: ['start start', 'end start'],
   });
 
-  const yBg = useTransform(scrollYProgress, [0, 1], ['0%', '100%']);
+  const yBg = useTransform(scrollYProgress, [0, 1], ['0%', '50%']);
   const yClouds = useTransform(scrollYProgress, [0, 1], ['0%', '200%']);
   const yText = useTransform(scrollYProgress, [0, 1], ['0%', '500%']);
   return (
@@ -30,7 +30,7 @@ function Parallax({ type }) {
         </motion.h1>
         <motion.div className='mountains'></motion.div>
         <motion.div style={{ x: yClouds }} className='clouds'></motion.div>
-        <motion.div style={{ y: yClouds }} className='planets'></motion.div>
+        <motion.div style={{ y: yBg }} className='planets'></motion.div>
         <motion.div style={{ x: yBg }} className='stars'></motion.div>
       </div>
     </>
