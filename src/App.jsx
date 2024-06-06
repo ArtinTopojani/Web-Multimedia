@@ -7,14 +7,16 @@ import Services from './components/services/Services';
 import Portfolio from './components/portfolio/Portfolio';
 import Contact from './components/contact/Contact';
 import PixiCursor from './components/pixicursorfollower/PixiCursor';
+import PixiComponent from './components/PixiComponent/PixiComponent';
+import FeaturedWork from './components/PixiComponent/FeaturedWork';
 
 function App() {
   return (
     <>
-      <PixiCursor></PixiCursor>
+      <PixiCursor />
 
       <section id='Homepage'>
-        <Navbar></Navbar>
+        <Navbar />
         <Hero />
       </section>
       <section id='Services'>
@@ -24,6 +26,11 @@ function App() {
         <Services />
       </section>
       <Portfolio />
+      <section>
+        <div>
+          <FeaturedWork />
+        </div>
+      </section>
       <section id='Contact'>
         <Contact />
       </section>

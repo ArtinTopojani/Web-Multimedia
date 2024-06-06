@@ -1,0 +1,7 @@
+@import '../../app.scss';
+
+.pixiCursor {
+  @include mobile {
+    display: none;
+  }
+}

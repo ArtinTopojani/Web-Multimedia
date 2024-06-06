@@ -5,7 +5,7 @@ import servicesImg from '../../assets/services.png';
 
 const variants = {
   initial: {
-    x: -500,
+    x: -110,
     y: 100,
     opacity: 0.2,
     scale: 0.8,
@@ -29,13 +29,13 @@ function Services() {
       initial='initial'
       whileInView='animate'
     >
-      <div className='textContainer' variants={variants}>
+      <motion.div className='textContainer' variants={variants}>
         <p>
           Lorem ipsum dolor sit amet consectetur
           <br /> adipisicing elit.
         </p>
         <hr />
-      </div>
+      </motion.div>
       <motion.div className='titleContainer' variants={variants}>
         <div className='title'>
           <img src={servicesImg} alt='A developer coding' />
@@ -59,8 +59,7 @@ function Services() {
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat
             voluptates aut at similique ab! Magni recusandae facere voluptatem
-            labore vitae reiciendis ullam dicta. Nobis at dolor, sequi doloribus
-            voluptatem placeat?
+            labore vitae reiciendis.
           </p>
           <button>Go</button>
         </motion.div>
@@ -72,8 +71,7 @@ function Services() {
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat
             voluptates aut at similique ab! Magni recusandae facere voluptatem
-            labore vitae reiciendis ullam dicta. Nobis at dolor, sequi doloribus
-            voluptatem placeat?
+            labore.
           </p>
           <button>Go</button>
         </motion.div>
@@ -85,8 +83,7 @@ function Services() {
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat
             voluptates aut at similique ab! Magni recusandae facere voluptatem
-            labore vitae reiciendis ullam dicta. Nobis at dolor, sequi doloribus
-            voluptatem placeat?
+            labore vitae.
           </p>
           <button>Go</button>
         </motion.div>

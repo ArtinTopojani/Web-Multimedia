@@ -46,7 +46,7 @@ function Contact() {
       initial='initial'
       whileInView='animate'
     >
-      <div className='textContainer' variants={variants}>
+      <motion.div className='textContainer' variants={variants}>
         <motion.h1 variants={variants}>Lets work together</motion.h1>
         <motion.div variants={variants} className='item'>
           <h2>Mail</h2>
@@ -60,7 +60,7 @@ function Contact() {
           <h2>Phone</h2>
           <span>+383 44 444 444</span>
         </motion.div>
-      </div>
+      </motion.div>
       <div className='formContainer'>
         <motion.div
           className='phoneSvg'

@@ -1,7 +1,7 @@
-// src/components/pixitest/PixiTestComponent.jsx
 import React, { useEffect, useState, useRef } from 'react';
 import { Stage, Sprite } from '@pixi/react';
 import cursorImg from '../../assets/crusorfollower.png';
+import './pixiCursor.scss';
 
 const PixiCursor = () => {
   const [appSize, setAppSize] = useState({
@@ -34,6 +34,7 @@ const PixiCursor = () => {
 
   return (
     <div
+      className='pixiCursor'
       style={{
         position: 'fixed',
         top: 0,

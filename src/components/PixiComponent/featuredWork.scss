@@ -1,0 +1,70 @@
+@import '../../app.scss';
+.featuredWork {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; // Ensures the section takes the full height of the viewport
+
+  .wrapper {
+    max-width: 1366px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+    @include mobile {
+      flex-direction: column-reverse;
+    }
+
+    .imageContainer {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      @include mobile {
+        width: 100%;
+        padding: 10px;
+      }
+      canvas {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px;
+        border: 1px orange solid;
+      }
+    }
+
+    .textContainer {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      align-items: center; // Centers the text container horizontally
+      @include mobile {
+        text-align: center;
+        padding: 10px;
+      }
+      h2 {
+        font-size: 72px;
+        @include mobile {
+          font-size: 54px;
+        }
+      }
+      p {
+        color: gray;
+        font-size: 20px;
+        text-align: center; // Centers text within the text container
+      }
+      button {
+        background-color: orange;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        width: 200px;
+        cursor: pointer;
+      }
+    }
+  }
+}
