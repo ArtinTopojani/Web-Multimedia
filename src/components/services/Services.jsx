@@ -51,10 +51,7 @@ function Services() {
         </div>
       </motion.div>
       <motion.div className='listContainer' variants={variants}>
-        <motion.div
-          className='box'
-          whileHover={{ background: 'lightgray', color: 'black' }}
-        >
+        <motion.div className='box'>
           <h2>Lorem.</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat
@@ -63,10 +60,7 @@ function Services() {
           </p>
           <button>Go</button>
         </motion.div>
-        <motion.div
-          className='box'
-          whileHover={{ background: 'lightgray', color: 'black' }}
-        >
+        <motion.div className='box'>
           <h2>Lorem.</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat
@@ -75,10 +69,7 @@ function Services() {
           </p>
           <button>Go</button>
         </motion.div>
-        <motion.div
-          className='box'
-          whileHover={{ background: 'lightgray', color: 'black' }}
-        >
+        <motion.div className='box'>
           <h2>Lorem.</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat
@@ -87,10 +78,7 @@ function Services() {
           </p>
           <button>Go</button>
         </motion.div>
-        <motion.div
-          className='box'
-          whileHover={{ background: 'lightgray', color: 'black' }}
-        >
+        <motion.div className='box'>
           <h2>Lorem.</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat

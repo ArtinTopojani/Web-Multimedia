@@ -8,8 +8,11 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
+
   h1 {
     font-size: 100px;
+    cursor: grab;
+    user-select: none;
 
     @include mobile {
       font-size: 72px;

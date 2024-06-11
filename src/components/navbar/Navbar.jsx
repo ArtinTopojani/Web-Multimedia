@@ -1,6 +1,10 @@
 import React from 'react';
 import './navbar.scss';
 import Icon from '../../assets/icon.png';
+import Icon1 from '../../assets/icon1.png';
+import Icon2 from '../../assets/icon2.png';
+import Icon3 from '../../assets/icon3.png';
+
 import { motion } from 'framer-motion';
 import Sidebar from '../sidebar/Sidebar';
 function Navbar() {
@@ -32,13 +36,13 @@ function Navbar() {
               <img src={Icon} alt='' />
             </a>
             <a href='#'>
-              <img src={Icon} alt='' />
+              <img src={Icon1} alt='' />
             </a>
             <a href='#'>
-              <img src={Icon} alt='' />
+              <img src={Icon2} alt='' />
             </a>
             <a href='#'>
-              <img src={Icon} alt='' />
+              <img src={Icon3} alt='' />
             </a>
           </motion.div>
         </div>

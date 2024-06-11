@@ -3,6 +3,10 @@
 .navbar {
   height: 100px;
 
+  a:hover {
+    scale: 1.1;
+  }
+
   .wrapper {
     max-width: 1366px;
     margin: auto;
