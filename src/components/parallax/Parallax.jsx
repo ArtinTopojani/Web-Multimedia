@@ -41,15 +41,7 @@ function Parallax({ type }) {
       }}
     >
       <AnimatePresence>
-        <motion.h1
-          key={textIndex}
-          initial={{ x: '100%', opacity: '0%' }}
-          animate={{ x: '0%', opacity: '100%' }}
-          exit={{ x: '-100%', opacity: '0%' }}
-          transition={{ duration: 1 }}
-        >
-          {texts[textIndex]}
-        </motion.h1>
+        <motion.h1>{texts[textIndex]}</motion.h1>
       </AnimatePresence>
       <motion.div className='mountains'></motion.div>
       <motion.div style={{ x: yClouds }} className='clouds'></motion.div>

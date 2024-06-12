@@ -46,6 +46,7 @@ const PixiCursor = () => {
       }}
     >
       <Stage
+        interactive={'auto'}
         width={appSize.width}
         height={appSize.height}
         options={{ backgroundAlpha: 0, transparent: true }}

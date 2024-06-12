@@ -5,3 +5,9 @@
     display: none;
   }
 }
+
+.pixiCursor {
+  @include tablet {
+    display: none;
+  }
+}

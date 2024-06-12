@@ -17,6 +17,9 @@
     @include mobile {
       flex-direction: column-reverse;
     }
+    @include tablet {
+      flex-direction: column-reverse;
+    }
 
     .imageContainer {
       width: 50%;
@@ -24,6 +27,10 @@
       align-items: center;
       justify-content: center;
       @include mobile {
+        width: 100%;
+        padding: 10px;
+      }
+      @include tablet {
         width: 100%;
         padding: 10px;
       }

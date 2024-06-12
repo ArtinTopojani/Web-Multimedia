@@ -20,7 +20,7 @@ const items = [
     id: 2,
     title: 'Web Multimedia',
     img: portfolioImg2,
-    desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, doloremque dolores. Rerum mollitia, corporis numquam repellat consectetur aspernatur eaque beatae magni a nemo odit, iusto dolor dicta dolorem ducimus consequuntur?',
+    desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, doloremque dolores. Rerum mollitia, corporis numquam repellat.',
   },
   {
     id: 3,
@@ -37,7 +37,7 @@ const items = [
       portfolioAudio3,
       portfolioAudio4,
     ],
-    desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, doloremque dolores. Rerum mollitia, corporis numquam repellat consectetur aspernatur eaque beatae magni a nemo odit, iusto dolor dicta dolorem ducimus consequuntur?',
+    desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, doloremque dolores. Rerum mollitia, corporis numquam repellat consectetur .',
   },
 ];
 

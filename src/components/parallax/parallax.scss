@@ -18,6 +18,11 @@
       font-size: 72px;
       text-align: center;
     }
+
+    @include tablet {
+      font-size: 80px;
+      text-align: center;
+    }
   }
 
   .mountains {
@@ -56,9 +61,4 @@
     position: absolute;
     z-index: 1;
   }
-
-  // Scroll behavior styles
-  scroll-snap-type: y proximity;
-  scroll-snap-stop: always;
-  scroll-padding: 0 0 50%;
 }

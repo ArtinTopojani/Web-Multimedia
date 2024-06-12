@@ -20,9 +20,27 @@
       padding: 20px;
     }
 
+    @include tablet {
+      justify-content: flex-end;
+      padding: 20px;
+    }
+
     span {
       font-weight: bold;
       @include mobile {
+        display: none;
+      }
+      @include tablet {
+        display: none;
+      }
+    }
+
+    span {
+      font-weight: bold;
+      @include mobile {
+        display: none;
+      }
+      @include tablet {
         display: none;
       }
     }
